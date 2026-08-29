@@ -12,5 +12,12 @@ let tasks =[];
 
 todoForm.addEventListener("submit", function(event){
     event.preventDefault()
+    addTask.value
+    let task = addTask.value;
+    tasks.push(task)
 
 });
+
+function displayTask(){
+    
+}
