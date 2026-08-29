@@ -8,3 +8,9 @@ let completedCount = document.getElementById("completedCount");
 let pendingCount = document.getElementById("pendingCount");
 let todoList = document.getElementById("todoList");
 
+let tasks =[];
+
+todoForm.addEventListener("submit", function(event){
+    event.preventDefault()
+
+});
